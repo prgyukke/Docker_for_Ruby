@@ -1,9 +1,9 @@
 # Docker_for_Ruby
 ## はじめに
-Ruby開発環境用のDockerです。
-プロジェクトディレクトリをDocker内の`/home/ruby`にマウントしています。
-OSXにて、[Docker For Mac](https://www.docker.com/docker-mac)のインストール前提です。
-[Docker Community Edition for Mac - Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac)の[Get Docker]をクリックしてダウンロード後、インストールしてください。
+Ruby開発環境用のDockerです。  
+プロジェクトディレクトリをDocker内の`/home/ruby`にマウントしています。  
+OSXにて、[Docker For Mac](https://www.docker.com/docker-mac)のインストール前提です。  
+[Docker Community Edition for Mac - Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac)の[Get Docker]をクリックしてダウンロード後、インストールしてください。  
 
 ### 各バージョン
 - Ruby 2.5
