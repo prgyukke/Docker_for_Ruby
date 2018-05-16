@@ -1,7 +1,7 @@
-# Docker_for_Ruby
+# [Docker_for_Ruby](https://github.com/prgyukke/Docker_for_Ruby)
 ## はじめに
 Ruby開発環境用のDockerです。  
-プロジェクトディレクトリをDocker内の`/home/ruby`にマウントしています。  
+プロジェクトディレクトリを`app`コンテナの`/home/ruby`にマウントしています。  
 OSXにて、[Docker For Mac](https://www.docker.com/docker-mac)のインストール前提です。  
 [Docker Community Edition for Mac - Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac)の[Get Docker]をクリックしてダウンロード後、インストールしてください。  
 
@@ -33,7 +33,7 @@ $ docker exec -it docker_app_1 /bin/bash
 ### コンテナを抜ける際
 ```
 # コンテナ上にて
-# docker exec -it docker_app_1 /bin/bash
+# exit
 ```
 
 ### 開発終了時
