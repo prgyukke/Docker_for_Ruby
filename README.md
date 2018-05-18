@@ -7,6 +7,8 @@ OSXにて、[Docker For Mac](https://www.docker.com/docker-mac)のインスト�
 
 ### 各バージョン
 - Ruby 2.5
+- MySQL 5.7
+
 
 ## 環境構築
 ### 初回のみ
@@ -25,9 +27,16 @@ $ docker-compose up -d
 ```
 
 ### コンテナに入る際
+#### ruby用コンテナ
 ```
 # mac上の`Docker_for_Ruby/docker/`にて
 $ docker exec -it docker_app_1 /bin/bash
+```
+
+#### db用コンテナ
+```
+# mac上の`Docker_for_Ruby/docker/`にて
+$ docker exec -it docker_db_1 /bin/bash
 ```
 
 ### コンテナを抜ける際
@@ -41,3 +50,10 @@ $ docker exec -it docker_app_1 /bin/bash
 $ docker-compose down
 $ docker rmi docker_app
 ```
+
+## MySQL
+- host
+	- db
+- user / password
+	- root / yQqDx.4(Cnue
+	- ruby / GdS)FP6*B7zJ
