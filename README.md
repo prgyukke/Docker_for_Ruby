@@ -27,12 +27,12 @@ $ docker-compose up -d
 ### コンテナに入る際
 #### ruby用コンテナ
 ```
-$ docker exec -it docker_app_1 /bin/bash
+$ docker exec -it docker_for_ruby_app_1 /bin/bash
 ```
 
 #### db用コンテナ
 ```
-$ docker exec -it docker_db_1 /bin/bash
+$ docker exec -it docker_for_ruby_db_1 /bin/bash
 ```
 
 ### コンテナを抜ける際
@@ -44,7 +44,7 @@ $ docker exec -it docker_db_1 /bin/bash
 ### 開発終了時
 ```
 $ docker-compose down
-$ docker rmi docker_app
+$ docker rmi docker_for_ruby_app_1
 ```
 
 ## MySQL
