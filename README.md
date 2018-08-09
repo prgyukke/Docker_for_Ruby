@@ -16,26 +16,22 @@ OSXにて、[Docker For Mac](https://www.docker.com/docker-mac)のインスト�
 $ git clone git@github.com:prgyukke/Docker_for_Ruby.git
 $ cd Docker_for_Ruby/
 $ rm -rf .git
-$ cd docker/
 $ docker-compose up -d
 ```
 
 ### 2回目以降
 ```
-$ cd Docker_for_Ruby/docker/
 $ docker-compose up -d
 ```
 
 ### コンテナに入る際
 #### ruby用コンテナ
 ```
-# mac上の`Docker_for_Ruby/docker/`にて
 $ docker exec -it docker_app_1 /bin/bash
 ```
 
 #### db用コンテナ
 ```
-# mac上の`Docker_for_Ruby/docker/`にて
 $ docker exec -it docker_db_1 /bin/bash
 ```
 
